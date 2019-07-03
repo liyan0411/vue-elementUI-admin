@@ -22,6 +22,10 @@ Vue.use(Element, {
   size: Cookies.get('size') || 'medium' // set element-ui default size
 })
 
+// import 'node_modules/ajshowtoast/lib/showToast'
+import ajshowtoast from 'ajshowtoast'
+Vue.use(ajshowtoast);
+
 // register global utility filters
 Object.keys(filters).forEach(key => {
   Vue.filter(key, filters[key])
