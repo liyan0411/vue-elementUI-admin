@@ -14,11 +14,11 @@ module.exports = {
   // add your custom rules here
   //it is base on https://github.com/vuejs/eslint-config-vue
   rules: {
-    'vue/max-attributes-per-line': 'off',
-    'vue/singleline-html-element-content-newline': 'off',
-    'vue/multiline-html-element-content-newline': 'off',
+    // 'vue/max-attributes-per-line': 'off',
+    // 'vue/singleline-html-element-content-newline': 'off',
+    // 'vue/multiline-html-element-content-newline': 'off',
     //   "vue/name-property-casing": ["error", "PascalCase"],
-    'vue/no-v-html': 'off',
+    // 'vue/no-v-html': 'off',
     //   'accessor-pairs': 2,
     //   'arrow-spacing': [2, {
     //     'before': true,
@@ -86,7 +86,7 @@ module.exports = {
     //   'no-implied-eval': 2,
     //   'no-inner-declarations': [2, 'functions'],
     //   'no-invalid-regexp': 2,
-    'no-irregular-whitespace': 'off',
+    // 'no-irregular-whitespace': 'off',
     //   'no-iterator': 2,
     //   'no-label-var': 2,
     //   'no-labels': [2, {
@@ -132,11 +132,11 @@ module.exports = {
     //   }],
     //   'no-unreachable': 2,
     //   'no-unsafe-finally': 2,
-      'no-unused-vars':'off',
+      // 'no-unused-vars':'off',
     //   'no-useless-call': 2,
     //   'no-useless-computed-key': 2,
     //   'no-useless-constructor': 2,
-      'no-useless-escape': 0,
+      // 'no-useless-escape': 0,
     //   'no-whitespace-before-property': 2,
     //   'no-with': 2,
     //   'one-var': [2, {
