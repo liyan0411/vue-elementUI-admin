@@ -14,7 +14,7 @@ module.exports = {
   // add your custom rules here
   //it is base on https://github.com/vuejs/eslint-config-vue
   rules: {
-    // 'vue/max-attributes-per-line': 'off',
+    'vue/max-attributes-per-line': 'off',
     // 'vue/singleline-html-element-content-newline': 'off',
     // 'vue/multiline-html-element-content-newline': 'off',
     //   "vue/name-property-casing": ["error", "PascalCase"],
