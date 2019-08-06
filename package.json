@@ -7,7 +7,8 @@
   "scripts": {
     "dev": "vue-cli-service serve --open",
     "start": "npm run dev",
-    "build": "vue-cli-service build"
+    "build": "vue-cli-service build",
+    "new": "plop"
   },
   "keywords": [
     "vue",
@@ -32,6 +33,7 @@
     "normalize.css": "7.0.0",
     "nprogress": "0.2.0",
     "path-to-regexp": "2.4.0",
+    "plop": "^2.4.0",
     "vue": "2.6.10",
     "vue-router": "3.0.2",
     "vue-splitpane": "1.0.4",
